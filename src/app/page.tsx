@@ -2,8 +2,12 @@ import Image from "next/image";
 import {MessageCircle, Instagram,  Facebook} from 'lucide-react'
 import NavBar from "@/components/nav/navbar";
 
+
+
 export default function Home() {
+  
   return (
+    
     <main className="flex h-screen w-screen items-center justify-center bg-[url('/images/bg.png')] bg-cover ">
       <NavBar/>
       <div className="fixed right-0 w-5/6 h-screen flex flex-col justify-start items-end ">

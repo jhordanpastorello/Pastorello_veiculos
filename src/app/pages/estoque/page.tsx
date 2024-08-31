@@ -12,31 +12,13 @@ let Veiculos =[
   {
     id:"1",
     image:"/images/carros/iveco.HEIC",
-    name:"AISJD Pastorello kasjdoi",
+    name:"Logo Pastorello Veiculos",
     valor:99.999,
   },
   {
     id:"1",
-    image:"/images/carros/iveco.HEIC",
-    name:"Adasd asdas Veiculos",
-    valor:99.999,
-  },
-  {
-    id:"1",
-    image:"/images/carros/iveco.HEIC",
-    name:"Loaushu Pastorello Veiculos",
-    valor:99.999,
-  },
-  {
-    id:"1",
-    image:"/images/carros/iveco.HEIC",
-    name:"Logo Pastorello gjgjgj",
-    valor:99.999,
-  },
-  {
-    id:"1",
-    image:"/images/carros/iveco.HEIC",
-    name:"Logo jhordan Veiculos",
+    image:["/images/carros/iveco.HEIC"],
+    name:"Logo Pastorello Veiculos",
     valor:99.999,
   },
   {
@@ -48,67 +30,7 @@ let Veiculos =[
   {
     id:"1",
     image:"/images/carros/iveco.HEIC",
-    name:"AISJD Pastorello kasjdoi",
-    valor:99.999,
-  },
-  {
-    id:"1",
-    image:"/images/carros/iveco.HEIC",
-    name:"Adasd asdas Veiculos",
-    valor:99.999,
-  },
-  {
-    id:"1",
-    image:"/images/carros/iveco.HEIC",
-    name:"Loaushu Pastorello Veiculos",
-    valor:99.999,
-  },
-  {
-    id:"1",
-    image:"/images/carros/iveco.HEIC",
-    name:"Logo Pastorello gjgjgj",
-    valor:99.999,
-  },
-  {
-    id:"1",
-    image:"/images/carros/iveco.HEIC",
-    name:"Logo jhordan Veiculos",
-    valor:99.999,
-  },
-  {
-    id:"1",
-    image:"/images/carros/iveco.HEIC",
     name:"Logo Pastorello Veiculos",
-    valor:99.999,
-  },
-  {
-    id:"1",
-    image:"/images/carros/iveco.HEIC",
-    name:"AISJD Pastorello kasjdoi",
-    valor:99.999,
-  },
-  {
-    id:"1",
-    image:"/images/carros/iveco.HEIC",
-    name:"Adasd asdas Veiculos",
-    valor:99.999,
-  },
-  {
-    id:"1",
-    image:"/images/carros/iveco.HEIC",
-    name:"Loaushu Pastorello Veiculos",
-    valor:99.999,
-  },
-  {
-    id:"1",
-    image:"/images/carros/iveco.HEIC",
-    name:"Logo Pastorello gjgjgj",
-    valor:99.999,
-  },
-  {
-    id:"1",
-    image:"/images/carros/iveco.HEIC",
-    name:"Logo jhordan Veiculos",
     valor:99.999,
   },
 ]
