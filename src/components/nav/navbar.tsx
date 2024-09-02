@@ -11,14 +11,14 @@ export default function NavBar() {
         quality={100}
         alt="Logo"/>
 
-      <div className="flex flex-col text-white text-left sm:font-bold md:font-black sm:text-base md:text-2xl ">
-        <a className="sm:hover:text-lg md:hover:text-3xl m-2" href="/">
+      <div className="flex flex-col sm:m-16 md:m-0 text-white text-left sm:font-bold md:font-black sm:text-base md:text-2xl ">
+        <a className="sm:hover:text-lg md:hover:text-3xl sm:m-0 md:m-2" href="/">
           <h2>Home</h2>
         </a>
-        <a className="sm:hover:text-lg md:hover:text-3xl m-2" href="../pages/estoque">
+        <a className="sm:hover:text-lg md:hover:text-3xl sm:m-0 md:m-2" href="../pages/estoque">
           <h2>Estoque</h2>
         </a>
-        <a className="sm:hover:text-lg md:hover:text-3xl m-2" href="#">
+        <a className="sm:hover:text-lg md:hover:text-3xl sm:m-0 md:m-2" href="#">
           <h2>Sobre</h2>
         </a>
       </div>
