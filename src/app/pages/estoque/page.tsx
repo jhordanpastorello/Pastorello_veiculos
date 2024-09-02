@@ -369,7 +369,7 @@ export default function Estoque() {
   return (
     <main className="flex h-screen w-screen items-center justify-center bg-[url('/images/bgest.png')] bg-cover ">
       <NavBar/>
-      <div className=" fixed right-0 scrollbar scrollbar-thumb-yellow-400 overflow-auto scroll-smooth accent-transparent h-screen w-5/6 pt-8 pb-8 grid grid-cols-4 gap-12 justify-center items-center text-center">
+      <div className=" fixed right-0 scrollbar scrollbar-thumb-yellow-400 overflow-auto scroll-smooth accent-transparent h-screen w-5/6 pt-8 pb-8 grid 2xl:grid-cols-4 md:grid-cols-2 xl:grid-cols-3 sm:grid-cols-1 gap-12 justify-center items-center content-center text-center">
       {Veiculos.map(veiculo => (
         <div key={veiculo.id} className="w-72 h-96 bg-slate-300 rounded-2xl shadow-2xl">
         <div className="image w-full h-56 bg-zinc-600 rounded-t-2xl flex  justify-center items-center"><img className="w-full h-56 rounded-t-2xl shadow-lg" src={`${veiculo.image[0].img}`} alt="" /> </div>
