@@ -5,20 +5,20 @@ export default function NavBar() {
   return (
    
       <nav className="fixed left-0 w-1/6 h-screen flex flex-col justify-between p-2 items-center text-center">
-        <Image className="sm:m-24 lg:m-8" src="/images/logo.png" 
+        <Image className="sm:m-8 lg:m-8" src="/images/logo.png" 
         width={240}
         height={500}
         quality={100}
         alt="Logo"/>
 
-      <div className="flex flex-col text-white text-left font-black sm:text-lg md:text-2xl ">
-        <a className="hover:text-3xl m-2" href="/">
+      <div className="flex flex-col text-white text-left sm:font-bold md:font-black sm:text-base md:text-2xl ">
+        <a className="sm:hover:text-lg md:hover:text-3xl m-2" href="/">
           <h2>Home</h2>
         </a>
-        <a className="hover:text-3xl m-2" href="../pages/estoque">
+        <a className="sm:hover:text-lg md:hover:text-3xl m-2" href="../pages/estoque">
           <h2>Estoque</h2>
         </a>
-        <a className="hover:text-3xl m-2" href="#">
+        <a className="sm:hover:text-lg md:hover:text-3xl m-2" href="#">
           <h2>Sobre</h2>
         </a>
       </div>
