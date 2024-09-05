@@ -13,13 +13,13 @@ export default function NavBar() {
 
       <div className="flex flex-col  sm:m-16 md:m-0 text-white text-left sm:font-bold md:font-black sm:text-base md:text-2xl ">
         <a className="sm:hover:text-lg md:hover:text-3xl sm:m-0 md:m-2 flex content-center justfy-center items-center  w-32 h-16 rounded-xl" href="/">
-          <House size={20} className="max-sm:ml-12 m-2 stroke-2"/> <h2 className="max-sm:hidden ">Home</h2>
+          <House size={20} className="max-sm:ml-14 m-2 stroke-2"/> <h2 className="max-sm:hidden ">Home</h2>
         </a>
         <a className="sm:hover:text-lg md:hover:text-3xl sm:m-0 md:m-2 flex  content-center justfy-center items-center   w-32 h-16 rounded-xl" href="../pages/estoque">
-          <Store size={20} className="max-sm:ml-12 m-2 stroke-2"/> <h2 className="max-sm:hidden ">Loja</h2>
+          <Store size={20} className="max-sm:ml-14 m-2 stroke-2"/> <h2 className="max-sm:hidden ">Loja</h2>
         </a>
         <a className="sm:hover:text-lg md:hover:text-3xl sm:m-0 md:m-2 flex  content-center justfy-center items-center   w-32 h-16 rounded-xl" href="#">
-          <CircleAlert size={20} className="max-sm:ml-12 m-2 stroke-2 "/> <h2 className="max-sm:hidden ">Sobre</h2>
+          <CircleAlert size={20} className="max-sm:ml-14 m-2 stroke-2 "/> <h2 className="max-sm:hidden ">Sobre</h2>
         </a>
       </div>
       <div className="m-4 flex">
